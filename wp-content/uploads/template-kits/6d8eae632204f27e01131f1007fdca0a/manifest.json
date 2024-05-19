@@ -1,0 +1,877 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "iLearn",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/demo.sociolib.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Courses",
+            "screenshot": "screenshots\/courses.jpg",
+            "source": "templates\/courses.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/courses\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Benefits",
+            "screenshot": "screenshots\/benefits.jpg",
+            "source": "templates\/benefits.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/benefits\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Course",
+            "screenshot": "screenshots\/single-course.jpg",
+            "source": "templates\/single-course.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/single-course\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Reviews",
+            "screenshot": "screenshots\/reviews.jpg",
+            "source": "templates\/reviews.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/reviews\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/blog\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Post",
+            "screenshot": "screenshots\/post.jpg",
+            "source": "templates\/post.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/demo.sociolib.com\/ilearn\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.3",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.7.7",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "14.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/14.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/benefits.json",
+                    "name": "Benefits"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                }
+            ],
+            "filesize": 40534,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "2.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 303011,
+            "dimensions": [
+                500,
+                602
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "mobile.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/mobile.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1927,
+            "dimensions": [
+                112,
+                112
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "chat.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/chat.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 2338,
+            "dimensions": [
+                112,
+                112
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "lo1.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/lo1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1745,
+            "dimensions": [
+                180,
+                80
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "lo2.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/lo2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 865,
+            "dimensions": [
+                180,
+                80
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "lo3.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/lo3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1782,
+            "dimensions": [
+                180,
+                80
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "ad.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/ad.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1383,
+            "dimensions": [
+                180,
+                80
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "certificate.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/certificate.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1822,
+            "dimensions": [
+                112,
+                112
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "homeschooling.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/homeschooling.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2577,
+            "dimensions": [
+                112,
+                112
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "tools.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/tools.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1979,
+            "dimensions": [
+                112,
+                109
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "graduation.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/graduation.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 2674,
+            "dimensions": [
+                112,
+                112
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "study.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/study.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                }
+            ],
+            "filesize": 2790,
+            "dimensions": [
+                112,
+                109
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "3.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/benefits.json",
+                    "name": "Benefits"
+                }
+            ],
+            "filesize": 88830,
+            "dimensions": [
+                750,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "4.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                }
+            ],
+            "filesize": 32262,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "2.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                }
+            ],
+            "filesize": 54518,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "3.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post.json",
+                    "name": "Post"
+                }
+            ],
+            "filesize": 32218,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "7.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/7.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/reviews.json",
+                    "name": "Reviews"
+                }
+            ],
+            "filesize": 394019,
+            "dimensions": [
+                500,
+                728
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "4.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/benefits.json",
+                    "name": "Benefits"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 82452,
+            "dimensions": [
+                750,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "5.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post.json",
+                    "name": "Post"
+                }
+            ],
+            "filesize": 23246,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "6.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 46832,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "7.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                }
+            ],
+            "filesize": 41553,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "8.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/8-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/benefits.json",
+                    "name": "Benefits"
+                }
+            ],
+            "filesize": 44126,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "5.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/5.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 65242,
+            "dimensions": [
+                750,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "6.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/6.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 71731,
+            "dimensions": [
+                750,
+                499
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "9.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 43551,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "10.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/10.jpg",
+            "templates": [
+                {
+                    "source": "templates\/reviews.json",
+                    "name": "Reviews"
+                }
+            ],
+            "filesize": 9108,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "13.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/13.jpg",
+            "templates": [
+                {
+                    "source": "templates\/reviews.json",
+                    "name": "Reviews"
+                }
+            ],
+            "filesize": 16581,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "11.jpg",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/11.jpg",
+            "templates": [
+                {
+                    "source": "templates\/reviews.json",
+                    "name": "Reviews"
+                }
+            ],
+            "filesize": 12999,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        },
+        {
+            "filename": "logo.png",
+            "thumbnail_url": "https:\/\/demo.sociolib.com\/ilearn\/wp-content\/uploads\/sites\/27\/2022\/12\/logo.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 7398,
+            "dimensions": [
+                280,
+                80
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/5JHEWXDUVG"
+        }
+    ]
+}

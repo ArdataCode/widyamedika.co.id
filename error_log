@@ -1,0 +1,44 @@
+[23-Mar-2024 00:29:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/widyamedika.co.id/wp-includes/update.php on line 211
+[23-Mar-2024 00:29:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/widyamedika.co.id/wp-includes/update.php on line 449
+[23-Mar-2024 00:29:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/widyamedika.co.id/wp-includes/update.php on line 730
+[09-Apr-2024 22:55:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/widyamedika.co.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/widyamedika.co.id/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/landingu/widyamedika.co.id/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/landingu/widyamedika.co.id/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/landingu/widyamedika.co.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/widyamedika.co.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/widyamedika.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/widyamedika.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/widyamedika.co.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/widyamedika.co.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/widyamedika.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/widyamedika.co.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/widyamedika.co.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[08-May-2024 03:17:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/widyamedika.co.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/widyamedika.co.id/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/landingu/widyamedika.co.id/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/landingu/widyamedika.co.id/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/landingu/widyamedika.co.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/widyamedika.co.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/widyamedika.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/widyamedika.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/widyamedika.co.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/widyamedika.co.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/widyamedika.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/widyamedika.co.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/widyamedika.co.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/widyamedika.co.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[11-May-2024 15:17:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/landingu/widyamedika.co.id/wp-includes/update.php on line 205
